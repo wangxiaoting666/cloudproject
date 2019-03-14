@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/details/details",
+    "pages/scanCode/scanCode",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath":"pages/main/main",
+      "text": "我的图书"
+    },{
+      "pagePath":"pages/scanCode/scanCode",
+      "text": "扫码"
+    }]
+  }
+}

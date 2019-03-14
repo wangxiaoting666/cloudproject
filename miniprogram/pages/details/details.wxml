@@ -1,0 +1,3 @@
+<text>{{book.title}}</text>
+<text>{{book.author}}</text>
+<text>{{book.author_intro}}</text>
